@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 3000
 const app = express()
 
 app.get('/ping', (req, res) => {
+    console.log('ping pong')
     res.send('pong');
 })
 
