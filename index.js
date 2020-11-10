@@ -6,7 +6,6 @@ const app = express()
 
 
 app.get('/ping', (req, res) => {
-    a.a;
     console.log('ping pong')
     res.send('pong');
 })
